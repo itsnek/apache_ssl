@@ -7,8 +7,11 @@ services:
       dockerfile: ./bin/apache/Dockerfile
     container_name: apache
     restart: always
+    ports:
+      - "8080:80"
     volumes:
-      - ./logs:/var/logs/apache2
+      - ./logs:/var/log/apache2
+      - ./config:/etc/apache2/sites-enabled
       - ./certs:/root/certs
     networks:
       - apache
@@ -28,6 +31,8 @@ services:
     container_name: sslscan
     restart: always
     # entrypoint: ["sh","-c","sleep infinity"]
+    # ports:
+    #   - ":80"
     volumes:
       - ./results:/results
     networks:
