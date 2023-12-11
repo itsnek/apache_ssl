@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  apache:
+    build:
+      context: .
+      dockerfile: ./bin/apache/Dockerfile
+    container_name: apache
+    restart: always
+    volumes:
+      - ./logs:/var/logs/apache2
+      - ./certs:/root/certs
+    networks:
+      - apache
+
+  sslyze:
+    image: nablac0d3/sslyze:latest
+    container_name: sslyze
+    restart: always
+    entrypoint: ["tail", "-f", "/dev/null"]
+    volumes:
+      - ./results:/results
+    networks:
+      - apache
+
+  sslscan:
+    image: sslscan:sslscan
+    container_name: sslscan
+    restart: always
+    # entrypoint: ["sh","-c","sleep infinity"]
+    volumes:
+      - ./results:/results
+    networks:
+      - apache
+
+networks:
+  apache:
+    driver: bridge
