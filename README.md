@@ -12,7 +12,7 @@ the end of the container if you need to specify which you want to rebuild).
 ### Used commands  
 - `openssl genrsa -aes256 -out CA.key 4096`  
 - `openssl req -x509 -new -nodes -key CA.key -sha256 -days 3650 -out CA.crt`  
-- `openssl req -new -nodes -out apache_webserver.csr -newkey rsa:4096 -keyout apache_webserver.key -subj '/CN=Apache webserver/C=GR/ST=Attica/L=Athens/O=Unipi'`  
+- `openssl req -new -nodes -out apache_webserver.csr -newkey rsa:4096 -keyout apache_webserver.key -subj '/CN=localhost/C=GR/ST=Attica/L=Athens/O=Unipi'`  
 - ```
     cat > apache_webserver.v3.ext << EOF
     authorityKeyIdentifier=keyid,issuer

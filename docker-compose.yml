@@ -8,7 +8,8 @@ services:
     container_name: apache
     restart: always
     ports:
-      - "8080:80"
+      - "80:80"
+      - "443:443"
     volumes:
       - ./logs:/var/log/apache2
       - ./config:/etc/apache2/sites-enabled
