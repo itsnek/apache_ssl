@@ -174,3 +174,33 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.28.0.2. Set the 'ServerName' directive globally to suppress this message
 [Tue Dec 12 15:41:31.271686 2023] [mpm_event:notice] [pid 15:tid 139714771707776] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
 [Tue Dec 12 15:41:31.272224 2023] [core:notice] [pid 15:tid 139714771707776] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.28.0.2. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 12 15:59:16.753211 2023] [mpm_event:notice] [pid 15:tid 140489268426624] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Tue Dec 12 15:59:16.753548 2023] [core:notice] [pid 15:tid 140489268426624] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.28.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 13 08:26:32.610295 2023] [core:warn] [pid 8:tid 139952841512832] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 13 08:26:32.611824 2023] [mpm_event:notice] [pid 8:tid 139952841512832] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Wed Dec 13 08:26:32.612303 2023] [core:notice] [pid 8:tid 139952841512832] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.28.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 15 11:04:26.554564 2023] [mpm_event:notice] [pid 15:tid 140582864238464] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Fri Dec 15 11:04:26.555171 2023] [core:notice] [pid 15:tid 140582864238464] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Dec 15 11:19:31.485224 2023] [ssl:warn] [pid 15:tid 139746239358848] AH01909: apache_webserver:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.28.0.2. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 15 11:19:31.504107 2023] [ssl:warn] [pid 15:tid 139746239358848] AH01909: apache_webserver:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 11:19:31.506767 2023] [mpm_event:notice] [pid 15:tid 139746239358848] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Fri Dec 15 11:19:31.507184 2023] [core:notice] [pid 15:tid 139746239358848] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Dec 15 11:22:34.235314 2023] [mpm_event:notice] [pid 15:tid 139746239358848] AH00493: SIGUSR1 received.  Doing graceful restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.28.0.2. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 15 11:22:34.256585 2023] [ssl:warn] [pid 15:tid 139746239358848] AH01909: apache_webserver:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 11:22:34.259332 2023] [ssl:warn] [pid 15:tid 139746239358848] AH01909: apache_webserver:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 11:22:34.259939 2023] [mpm_event:notice] [pid 15:tid 139746239358848] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Fri Dec 15 11:22:34.260340 2023] [core:notice] [pid 15:tid 139746239358848] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Dec 15 11:35:17.247246 2023] [ssl:warn] [pid 15:tid 140301645612928] AH01909: apache_webserver:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 11:35:17.250707 2023] [ssl:warn] [pid 15:tid 140301645612928] AH01909: apache_webserver:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.28.0.2. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 15 11:35:17.275580 2023] [ssl:warn] [pid 15:tid 140301645612928] AH01909: apache_webserver:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 11:35:17.278102 2023] [ssl:warn] [pid 15:tid 140301645612928] AH01909: apache_webserver:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 11:35:17.279205 2023] [mpm_event:notice] [pid 15:tid 140301645612928] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Fri Dec 15 11:35:17.279517 2023] [core:notice] [pid 15:tid 140301645612928] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Dec 15 11:48:08.645209 2023] [ssl:warn] [pid 15:tid 139866248472448] AH01909: apache_webserver:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.28.0.2. Set the 'ServerName' directive globally to suppress this message
