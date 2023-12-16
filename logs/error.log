@@ -207,3 +207,134 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Fri Dec 15 11:48:08.670253 2023] [ssl:warn] [pid 15:tid 139866248472448] AH01909: apache_webserver:443:0 server certificate does NOT include an ID which matches the server name
 [Fri Dec 15 11:48:08.674407 2023] [mpm_event:notice] [pid 15:tid 139866248472448] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
 [Fri Dec 15 11:48:08.674827 2023] [core:notice] [pid 15:tid 139866248472448] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Dec 16 11:40:03.477497 2023] [ssl:warn] [pid 15:tid 139809204541312] AH01909: apache_webserver:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Dec 16 11:40:03.503224 2023] [ssl:warn] [pid 15:tid 139809204541312] AH01909: apache_webserver:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Dec 16 11:40:03.507650 2023] [mpm_event:notice] [pid 15:tid 139809204541312] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Sat Dec 16 11:40:03.507958 2023] [core:notice] [pid 15:tid 139809204541312] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Dec 16 12:32:52.559667 2023] [mpm_event:notice] [pid 15:tid 139974907332480] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Sat Dec 16 12:32:52.560008 2023] [core:notice] [pid 15:tid 139974907332480] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Dec 16 13:55:14.691896 2023] [mpm_event:notice] [pid 15:tid 140323775719296] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Sat Dec 16 13:55:14.692181 2023] [core:notice] [pid 15:tid 140323775719296] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Dec 16 17:44:31.651051 2023] [ssl:warn] [pid 15:tid 140582807484288] AH01909: 172.20.0.3:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Dec 16 17:44:31.664950 2023] [ssl:warn] [pid 15:tid 140582807484288] AH01909: 172.20.0.3:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Dec 16 17:44:31.666453 2023] [mpm_event:notice] [pid 15:tid 140582807484288] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Sat Dec 16 17:44:31.666985 2023] [core:notice] [pid 15:tid 140582807484288] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Dec 16 17:47:29.235648 2023] [mpm_event:notice] [pid 15:tid 140020996134784] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Sat Dec 16 17:47:29.236104 2023] [core:notice] [pid 15:tid 140020996134784] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Dec 16 18:00:00.838259 2023] [ssl:emerg] [pid 15:tid 140508747028352] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:00:00.839435 2023] [ssl:emerg] [pid 15:tid 140508747028352] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:00:00.839920 2023] [ssl:emerg] [pid 15:tid 140508747028352] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:00:03.118733 2023] [ssl:emerg] [pid 8:tid 139823814788992] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:00:03.118989 2023] [ssl:emerg] [pid 8:tid 139823814788992] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:00:03.119214 2023] [ssl:emerg] [pid 8:tid 139823814788992] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:00:04.913260 2023] [ssl:emerg] [pid 8:tid 139950918858624] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:00:04.913440 2023] [ssl:emerg] [pid 8:tid 139950918858624] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:00:04.913574 2023] [ssl:emerg] [pid 8:tid 139950918858624] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:00:06.621699 2023] [ssl:emerg] [pid 8:tid 139695443126144] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:00:06.621924 2023] [ssl:emerg] [pid 8:tid 139695443126144] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:00:06.622065 2023] [ssl:emerg] [pid 8:tid 139695443126144] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:00:08.542740 2023] [ssl:emerg] [pid 8:tid 139925299206016] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:00:08.542972 2023] [ssl:emerg] [pid 8:tid 139925299206016] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:00:08.543126 2023] [ssl:emerg] [pid 8:tid 139925299206016] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:00:11.321423 2023] [ssl:emerg] [pid 8:tid 140583365240704] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:00:11.321625 2023] [ssl:emerg] [pid 8:tid 140583365240704] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:00:11.321780 2023] [ssl:emerg] [pid 8:tid 140583365240704] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:00:15.572685 2023] [ssl:emerg] [pid 8:tid 140043641313152] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:00:15.572889 2023] [ssl:emerg] [pid 8:tid 140043641313152] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:00:15.573050 2023] [ssl:emerg] [pid 8:tid 140043641313152] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:00:23.051731 2023] [ssl:emerg] [pid 8:tid 139682044401536] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:00:23.051989 2023] [ssl:emerg] [pid 8:tid 139682044401536] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:00:23.052159 2023] [ssl:emerg] [pid 8:tid 139682044401536] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:00:36.890650 2023] [ssl:emerg] [pid 8:tid 140261399099264] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:00:36.890851 2023] [ssl:emerg] [pid 8:tid 140261399099264] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:00:36.890988 2023] [ssl:emerg] [pid 8:tid 140261399099264] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:01:03.511706 2023] [ssl:emerg] [pid 8:tid 140485565540224] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:01:03.511923 2023] [ssl:emerg] [pid 8:tid 140485565540224] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:01:03.512092 2023] [ssl:emerg] [pid 8:tid 140485565540224] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:01:55.832347 2023] [ssl:emerg] [pid 8:tid 140386764482432] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:01:55.832535 2023] [ssl:emerg] [pid 8:tid 140386764482432] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:01:55.832664 2023] [ssl:emerg] [pid 8:tid 140386764482432] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:02:55.683327 2023] [ssl:emerg] [pid 15:tid 140009551845248] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:02:55.683529 2023] [ssl:emerg] [pid 15:tid 140009551845248] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:02:55.683666 2023] [ssl:emerg] [pid 15:tid 140009551845248] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:02:57.588639 2023] [ssl:emerg] [pid 8:tid 140507026794368] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:02:57.588945 2023] [ssl:emerg] [pid 8:tid 140507026794368] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:02:57.589155 2023] [ssl:emerg] [pid 8:tid 140507026794368] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:02:59.481645 2023] [ssl:emerg] [pid 8:tid 139923148081024] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:02:59.481838 2023] [ssl:emerg] [pid 8:tid 139923148081024] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:02:59.481984 2023] [ssl:emerg] [pid 8:tid 139923148081024] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:03:01.222518 2023] [ssl:emerg] [pid 8:tid 140377170421632] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:03:01.222753 2023] [ssl:emerg] [pid 8:tid 140377170421632] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:03:01.222894 2023] [ssl:emerg] [pid 8:tid 140377170421632] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:03:03.090811 2023] [ssl:emerg] [pid 8:tid 140247326984064] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:03:03.091040 2023] [ssl:emerg] [pid 8:tid 140247326984064] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:03:03.091202 2023] [ssl:emerg] [pid 8:tid 140247326984064] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:03:05.761422 2023] [ssl:emerg] [pid 8:tid 140262282438528] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:03:05.761644 2023] [ssl:emerg] [pid 8:tid 140262282438528] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:03:05.761797 2023] [ssl:emerg] [pid 8:tid 140262282438528] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:03:10.142852 2023] [ssl:emerg] [pid 9:tid 140204647094144] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:03:10.143084 2023] [ssl:emerg] [pid 9:tid 140204647094144] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:03:10.143253 2023] [ssl:emerg] [pid 9:tid 140204647094144] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:03:17.621565 2023] [ssl:emerg] [pid 8:tid 140213555332992] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:03:17.621918 2023] [ssl:emerg] [pid 8:tid 140213555332992] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:03:17.622413 2023] [ssl:emerg] [pid 8:tid 140213555332992] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:03:31.562529 2023] [ssl:emerg] [pid 8:tid 140385185900416] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:03:31.562763 2023] [ssl:emerg] [pid 8:tid 140385185900416] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:03:31.562926 2023] [ssl:emerg] [pid 8:tid 140385185900416] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:03:58.301097 2023] [ssl:emerg] [pid 8:tid 139938803242880] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:03:58.301406 2023] [ssl:emerg] [pid 8:tid 139938803242880] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:03:58.301571 2023] [ssl:emerg] [pid 8:tid 139938803242880] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:04:50.521053 2023] [ssl:emerg] [pid 8:tid 139811148593024] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:04:50.521250 2023] [ssl:emerg] [pid 8:tid 139811148593024] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:04:50.521383 2023] [ssl:emerg] [pid 8:tid 139811148593024] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:05:51.461370 2023] [ssl:emerg] [pid 8:tid 139775650027392] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:05:51.461601 2023] [ssl:emerg] [pid 8:tid 139775650027392] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:05:51.461772 2023] [ssl:emerg] [pid 8:tid 139775650027392] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:06:52.601172 2023] [ssl:emerg] [pid 8:tid 140173056448384] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:06:52.601381 2023] [ssl:emerg] [pid 8:tid 140173056448384] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:06:52.601560 2023] [ssl:emerg] [pid 8:tid 140173056448384] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+[Sat Dec 16 18:07:53.721010 2023] [ssl:emerg] [pid 8:tid 140567417874304] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl_keys/apache_webserver.cer
+[Sat Dec 16 18:07:53.721221 2023] [ssl:emerg] [pid 8:tid 140567417874304] SSL Library Error: error:0480006C:PEM routines::no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sat Dec 16 18:07:53.721376 2023] [ssl:emerg] [pid 8:tid 140567417874304] SSL Library Error: error:0A080009:SSL routines::PEM lib
+AH00016: Configuration Failed
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Dec 16 18:12:14.536829 2023] [mpm_event:notice] [pid 15:tid 139729907083136] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Sat Dec 16 18:12:14.537196 2023] [core:notice] [pid 15:tid 139729907083136] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Dec 16 18:31:38.467508 2023] [mpm_event:notice] [pid 15:tid 140392684771200] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Sat Dec 16 18:31:38.467769 2023] [core:notice] [pid 15:tid 140392684771200] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Dec 16 18:33:15.866733 2023] [mpm_event:notice] [pid 15:tid 140285538617216] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Sat Dec 16 18:33:15.866967 2023] [core:notice] [pid 15:tid 140285538617216] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Dec 16 18:37:49.466112 2023] [mpm_event:notice] [pid 15:tid 140415370213248] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Sat Dec 16 18:37:49.466367 2023] [core:notice] [pid 15:tid 140415370213248] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

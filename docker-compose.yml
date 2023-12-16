@@ -27,17 +27,17 @@ services:
     networks:
       - apache
 
-  sslscan:
-    image: sslscan:sslscan
-    container_name: sslscan
-    restart: always
+        #  sslscan:
+        #image: sslscan:sslscan
+        #container_name: sslscan
+        #restart: always
     # entrypoint: ["sh","-c","sleep infinity"]
     # ports:
     #   - ":80"
-    volumes:
-      - ./results:/results
-    networks:
-      - apache
+    #volumes:
+    #  - ./results:/results
+    #networks:
+    #  - apache
 
 networks:
   apache:

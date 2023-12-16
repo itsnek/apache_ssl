@@ -25,7 +25,7 @@ the end of the container if you need to specify which you want to rebuild).
     nsCertType = server
     EOF
   ```  
-- `openssl x509 -req -in apache_webserver.csr -CA CA.crt -CAkey CA.key -CAcreateserial -out apache_webserver.crt -days 365 -sha256 -extfile apache_webserver.v3.ext`  
+- `openssl x509 -req -in apache_webserver.csr -CA CA.crt -CAkey CA.key -CAcreateserial -out apache_webserver.crt -days 365 -sha256 -extensions server -extfile apache_webserver.v3.ext`  
 
 #### Client certs  
 - `openssl genrsa -out client.key 2048`  
