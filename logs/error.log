@@ -338,3 +338,10 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.3. Set the 'ServerName' directive globally to suppress this message
 [Sat Dec 16 18:37:49.466112 2023] [mpm_event:notice] [pid 15:tid 140415370213248] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
 [Sat Dec 16 18:37:49.466367 2023] [core:notice] [pid 15:tid 140415370213248] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Dec 16 18:45:21.243199 2023] [core:warn] [pid 7:tid 139945397913472] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Dec 16 18:45:21.245782 2023] [mpm_event:notice] [pid 7:tid 139945397913472] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Sat Dec 16 18:45:21.246665 2023] [core:notice] [pid 7:tid 139945397913472] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Dec 16 19:26:24.019719 2023] [mpm_event:notice] [pid 15:tid 140466596980608] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Sat Dec 16 19:26:24.020028 2023] [core:notice] [pid 15:tid 140466596980608] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

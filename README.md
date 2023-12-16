@@ -34,6 +34,10 @@ the end of the container if you need to specify which you want to rebuild).
 - `openssl pkcs12 -export -inkey client.key -in client.cer -out client.p12`  
 
 
+#### SSLyze && SSLScan
+- `docker run -it --rm --network host nablac0d3/sslyze:latest localhost:443 > ./results/sslyze.log`
+- `docker run --rm -ti --network host sslscan:sslscan /sslscan localhost:443 > ./results/sslscan.log`
+
 ### Sources  
 
 - https://arminreiter.com/2022/01/create-your-own-certificate-authority-ca-using-openssl/  

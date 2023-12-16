@@ -1,0 +1,150 @@
+
+ CHECKING CONNECTIVITY TO SERVER(S)
+ ----------------------------------
+
+   localhost:443             => 127.0.0.1   WARNING: Server REQUIRED client authentication, specific plugins will fail.
+
+
+ SCAN RESULTS FOR LOCALHOST:443 - 127.0.0.1
+ ------------------------------------------
+
+ * Certificates Information:
+       Hostname sent for SNI:             localhost
+       Number of certificates detected:   1
+
+
+     Certificate #0 ( _RSAPublicKey )
+       SHA1 Fingerprint:                  1178515ffefc92400d42e4954c5b9f187fcfd638
+       Common Name:                       localhost
+       Issuer:                            CA
+       Serial Number:                     528532423276833435261760370367633637084953157195
+       Not Before:                        2023-12-16
+       Not After:                         2024-12-15
+       Public Key Algorithm:              _RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          4096
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['localhost', '*.unipi.gr', 'unipi.gr', '127.0.0.1', '127.0.0.2']
+
+     Certificate #0 - Trust
+       Hostname Validation:               OK - Certificate matches server hostname
+       Android CA Store (13.0.0_r9):      FAILED - Certificate is NOT Trusted: self-signed certificate in certificate chain
+       Apple CA Store (iOS 16.5, iPadOS 16.5, macOS 13.5, tvOS 16.5, and watchOS 9.5):FAILED - Certificate is NOT Trusted: self-signed certificate in certificate chain
+       Java CA Store (jdk-13.0.2):        FAILED - Certificate is NOT Trusted: self-signed certificate in certificate chain
+       Mozilla CA Store (2023-07-27):     FAILED - Certificate is NOT Trusted: self-signed certificate in certificate chain
+       Windows CA Store (2023-06-11):     FAILED - Certificate is NOT Trusted: self-signed certificate in certificate chain
+       Symantec 2018 Deprecation:         ERROR - Could not build verified chain (certificate untrusted?)
+       Received Chain:                    localhost --> CA
+       Verified Chain:                    ERROR - Could not build verified chain (certificate untrusted?)
+       Received Chain Contains Anchor:    ERROR - Could not build verified chain (certificate untrusted?)
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      ERROR - Could not build verified chain (certificate untrusted?)
+
+     Certificate #0 - Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          NOT SUPPORTED - Extension not found
+
+     Certificate #0 - OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+ * SSL 2.0 Cipher Suites:
+     Attempted to connect using 7 cipher suites; the server rejected all cipher suites.
+
+ * SSL 3.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.1 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.2 Cipher Suites:
+     Attempted to connect using 156 cipher suites.
+
+     The server accepted the following 44 cipher suites:
+        TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256              256                      
+        TLS_RSA_WITH_CAMELLIA_256_CBC_SHA                 256                      
+        TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256              128                      
+        TLS_RSA_WITH_CAMELLIA_128_CBC_SHA                 128                      
+        TLS_RSA_WITH_ARIA_256_GCM_SHA384                  256                      
+        TLS_RSA_WITH_ARIA_128_GCM_SHA256                  128                      
+        TLS_RSA_WITH_AES_256_GCM_SHA384                   256                      
+        TLS_RSA_WITH_AES_256_CCM_8                        128                      
+        TLS_RSA_WITH_AES_256_CCM                          256                      
+        TLS_RSA_WITH_AES_256_CBC_SHA256                   256                      
+        TLS_RSA_WITH_AES_256_CBC_SHA                      256                      
+        TLS_RSA_WITH_AES_128_GCM_SHA256                   128                      
+        TLS_RSA_WITH_AES_128_CCM_8                        128                      
+        TLS_RSA_WITH_AES_128_CCM                          128                      
+        TLS_RSA_WITH_AES_128_CBC_SHA256                   128                      
+        TLS_RSA_WITH_AES_128_CBC_SHA                      128                      
+        TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256       256       ECDH: X25519 (253 bits)
+        TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384        256       ECDH: X25519 (253 bits)
+        TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256        128       ECDH: X25519 (253 bits)
+        TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384            256       ECDH: X25519 (253 bits)
+        TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256            128       ECDH: X25519 (253 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384             256       ECDH: prime256v1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384             256       ECDH: prime256v1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA                256       ECDH: prime256v1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256             128       ECDH: prime256v1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256             128       ECDH: prime256v1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA                128       ECDH: prime256v1 (256 bits)
+        TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256         256       DH (4096 bits) 
+        TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256          256       DH (4096 bits) 
+        TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA             256       DH (4096 bits) 
+        TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256          128       DH (4096 bits) 
+        TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA             128       DH (4096 bits) 
+        TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384              256       DH (4096 bits) 
+        TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256              256       DH (4096 bits) 
+        TLS_DHE_RSA_WITH_AES_256_GCM_SHA384               256       DH (4096 bits) 
+        TLS_DHE_RSA_WITH_AES_256_CCM_8                    256       DH (4096 bits) 
+        TLS_DHE_RSA_WITH_AES_256_CCM                      256       DH (4096 bits) 
+        TLS_DHE_RSA_WITH_AES_256_CBC_SHA256               256       DH (4096 bits) 
+        TLS_DHE_RSA_WITH_AES_256_CBC_SHA                  256       DH (4096 bits) 
+        TLS_DHE_RSA_WITH_AES_128_GCM_SHA256               128       DH (4096 bits) 
+        TLS_DHE_RSA_WITH_AES_128_CCM_8                    128       DH (4096 bits) 
+        TLS_DHE_RSA_WITH_AES_128_CCM                      128       DH (4096 bits) 
+        TLS_DHE_RSA_WITH_AES_128_CBC_SHA256               128       DH (4096 bits) 
+        TLS_DHE_RSA_WITH_AES_128_CBC_SHA                  128       DH (4096 bits) 
+
+     The group of cipher suites supported by the server has the following properties:
+       Forward Secrecy                    OK - Supported
+       Legacy RC4 Algorithm               OK - Not Supported
+
+
+ * TLS 1.3 Cipher Suites:
+     Attempted to connect using 5 cipher suites.
+
+     The server accepted the following 3 cipher suites:
+        TLS_CHACHA20_POLY1305_SHA256                      256       ECDH: X25519 (253 bits)
+        TLS_AES_256_GCM_SHA384                            256       ECDH: X25519 (253 bits)
+        TLS_AES_128_GCM_SHA256                            128       ECDH: X25519 (253 bits)
+
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ * OpenSSL CCS Injection:
+                                          OK - Not vulnerable to OpenSSL CCS injection
+
+ * OpenSSL Heartbleed:
+                                          OK - Not vulnerable to Heartbleed
+
+ * Client certificated required for --robot: use --cert and --key to provide one.
+
+ * Client certificated required for --reneg: use --cert and --key to provide one.
+
+ * Elliptic Curve Key Exchange:
+       Supported curves:                  X25519, X448, prime256v1, secp384r1, secp521r1
+       Rejected curves:                   prime192v1, secp160k1, secp160r1, secp160r2, secp192k1, secp224k1, secp224r1, secp256k1, sect163k1, sect163r1, sect163r2, sect193r1, sect193r2, sect233k1, sect233r1, sect239k1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1
+
+ SCANS COMPLETED IN 0.722923 S
+ -----------------------------
+
+ COMPLIANCE AGAINST MOZILLA TLS CONFIGURATION
+ --------------------------------------------
+
+    Checking results against Mozilla's "intermediate" configuration. See https://ssl-config.mozilla.org/ for more details.
+
+    localhost:443: ERROR - Scan did not run successfully; review the scan logs above.

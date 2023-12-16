@@ -18,25 +18,27 @@ services:
       - apache
 
   sslyze:
-    image: nablac0d3/sslyze:latest
-    container_name: sslyze
-    restart: always
-    entrypoint: ["tail", "-f", "/dev/null"]
-    volumes:
-      - ./results:/results
-    networks:
-      - apache
+   image: nablac0d3/sslyze:latest
+   container_name: sslyze
+   restart: always
+  #  entrypoint: ["tail", "-f", "/dev/null"]
+   command: "localhost:443 > /results/sslyze.log"
+   volumes:
+     - ./results:/results
+   network_mode: host
 
-        #  sslscan:
-        #image: sslscan:sslscan
-        #container_name: sslscan
-        #restart: always
+  sslscan:
+    image: sslscan:sslscan
+    container_name: sslscan
+    restart: always
     # entrypoint: ["sh","-c","sleep infinity"]
-    # ports:
-    #   - ":80"
-    #volumes:
-    #  - ./results:/results
-    #networks:
+    command: "/sslscan localhost:443 > /var/log/sslscan/sslscan.log"
+    ports:
+      - ":80"
+    volumes:
+     - ./results/:/results
+    network_mode: host
+    # networks:
     #  - apache
 
 networks:
