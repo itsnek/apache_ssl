@@ -2,7 +2,7 @@
  CHECKING CONNECTIVITY TO SERVER(S)
  ----------------------------------
 
-   localhost:443             => 127.0.0.1   WARNING: Server REQUIRED client authentication, specific plugins will fail.
+   localhost:443             => 127.0.0.1 
 
 
  SCAN RESULTS FOR LOCALHOST:443 - 127.0.0.1
@@ -62,7 +62,7 @@
  * TLS 1.2 Cipher Suites:
      Attempted to connect using 156 cipher suites.
 
-     The server accepted the following 44 cipher suites:
+     The server accepted the following 27 cipher suites:
         TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256              256                      
         TLS_RSA_WITH_CAMELLIA_256_CBC_SHA                 256                      
         TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256              128                      
@@ -90,23 +90,6 @@
         TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256             128       ECDH: prime256v1 (256 bits)
         TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256             128       ECDH: prime256v1 (256 bits)
         TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA                128       ECDH: prime256v1 (256 bits)
-        TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256         256       DH (4096 bits) 
-        TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256          256       DH (4096 bits) 
-        TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA             256       DH (4096 bits) 
-        TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256          128       DH (4096 bits) 
-        TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA             128       DH (4096 bits) 
-        TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384              256       DH (4096 bits) 
-        TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256              256       DH (4096 bits) 
-        TLS_DHE_RSA_WITH_AES_256_GCM_SHA384               256       DH (4096 bits) 
-        TLS_DHE_RSA_WITH_AES_256_CCM_8                    256       DH (4096 bits) 
-        TLS_DHE_RSA_WITH_AES_256_CCM                      256       DH (4096 bits) 
-        TLS_DHE_RSA_WITH_AES_256_CBC_SHA256               256       DH (4096 bits) 
-        TLS_DHE_RSA_WITH_AES_256_CBC_SHA                  256       DH (4096 bits) 
-        TLS_DHE_RSA_WITH_AES_128_GCM_SHA256               128       DH (4096 bits) 
-        TLS_DHE_RSA_WITH_AES_128_CCM_8                    128       DH (4096 bits) 
-        TLS_DHE_RSA_WITH_AES_128_CCM                      128       DH (4096 bits) 
-        TLS_DHE_RSA_WITH_AES_128_CBC_SHA256               128       DH (4096 bits) 
-        TLS_DHE_RSA_WITH_AES_128_CBC_SHA                  128       DH (4096 bits) 
 
      The group of cipher suites supported by the server has the following properties:
        Forward Secrecy                    OK - Supported
@@ -131,15 +114,17 @@
  * OpenSSL Heartbleed:
                                           OK - Not vulnerable to Heartbleed
 
- * Client certificated required for --robot: use --cert and --key to provide one.
+ * Connection timed out or was rejected for --robot: try using --slow_connection to reduce the impact on the server.
 
- * Client certificated required for --reneg: use --cert and --key to provide one.
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
 
  * Elliptic Curve Key Exchange:
        Supported curves:                  X25519, X448, prime256v1, secp384r1, secp521r1
        Rejected curves:                   prime192v1, secp160k1, secp160r1, secp160r2, secp192k1, secp224k1, secp224r1, secp256k1, sect163k1, sect163r1, sect163r2, sect193r1, sect193r2, sect233k1, sect233r1, sect239k1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1
 
- SCANS COMPLETED IN 0.722923 S
+ SCANS COMPLETED IN 2.314460 S
  -----------------------------
 
  COMPLIANCE AGAINST MOZILLA TLS CONFIGURATION

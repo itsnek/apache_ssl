@@ -16,7 +16,7 @@ RUN mkdir ssl_keys && \
     cp /root/certs/apache_webserver/apache_webserver.key ./ssl_keys && \
     cp /root/certs/apache_webserver/apache_webserver.crt ./ssl_keys
 
-RUN a2enmod ssl && a2enmod rewrite
+RUN a2enmod ssl headers rewrite
 
 # RUN touch /etc/apache2/sites-available/default-ssl
 # RUN <<EOF > /etc/apache2/sites-available/default-ssl 

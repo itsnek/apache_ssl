@@ -20,26 +20,22 @@ services:
   sslyze:
    image: nablac0d3/sslyze:latest
    container_name: sslyze
-   restart: always
   #  entrypoint: ["tail", "-f", "/dev/null"]
-   command: "localhost:443 > /results/sslyze.log"
+   command: "localhost:443 --cert /certs/client.cer --key /certs/client.key > ./results/sslyze.log"
    volumes:
      - ./results:/results
+     - ./certs/client:/certs
    network_mode: host
 
   sslscan:
     image: sslscan:sslscan
     container_name: sslscan
-    restart: always
     # entrypoint: ["sh","-c","sleep infinity"]
-    command: "/sslscan localhost:443 > /var/log/sslscan/sslscan.log"
-    ports:
-      - ":80"
+    command: "/sslscan --pk=/certs/client.p12 --pkpass=myCert localhost:443 > ./results/sslscan.log"
     volumes:
      - ./results/:/results
+     - ./certs/client:/certs
     network_mode: host
-    # networks:
-    #  - apache
 
 networks:
   apache:

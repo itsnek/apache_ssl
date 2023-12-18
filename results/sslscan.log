@@ -1,4 +1,4 @@
-Version: [32m2.1.1-5-gf9bd534-wip-static[0m
+Version: [32m2.1.1-5-gf9bd534-static[0m
 OpenSSL 3.0.12 24 Oct 2023
 [0m
 [31mERROR: Could not open a connection to host localhost (::1) on port 443 (connect: Connection refused).[0m
@@ -28,37 +28,20 @@ TLSv1.3 [32mnot vulnerable[0m to heartbleed
 TLSv1.2 [32mnot vulnerable[0m to heartbleed
 
   [1;34mSupported Server Cipher(s):[0m
-[32mPreferred[0m [32mTLSv1.3[0m  [32m128[0m bits  [32mTLS_AES_128_GCM_SHA256       [0m Curve [32m25519[0m DHE 253
-Accepted  [32mTLSv1.3[0m  [32m256[0m bits  [32mTLS_AES_256_GCM_SHA384       [0m Curve [32m25519[0m DHE 253
+[32mPreferred[0m [32mTLSv1.3[0m  [32m256[0m bits  [32mTLS_AES_256_GCM_SHA384       [0m Curve [32m25519[0m DHE 253
 Accepted  [32mTLSv1.3[0m  [32m256[0m bits  [32mTLS_CHACHA20_POLY1305_SHA256 [0m Curve [32m25519[0m DHE 253
+Accepted  [32mTLSv1.3[0m  [32m128[0m bits  [32mTLS_AES_128_GCM_SHA256       [0m Curve [32m25519[0m DHE 253
 [32mPreferred[0m TLSv1.2  [32m256[0m bits  [32mECDHE-RSA-AES256-GCM-SHA384  [0m Curve [32m25519[0m DHE 253
-Accepted  TLSv1.2  [32m256[0m bits  [32mDHE-RSA-AES256-GCM-SHA384    [0m DHE 4096 bits
-Accepted  TLSv1.2  [32m256[0m bits  [32mECDHE-RSA-CHACHA20-POLY1305  [0m Curve [32m25519[0m DHE 253
-Accepted  TLSv1.2  [32m256[0m bits  [32mDHE-RSA-CHACHA20-POLY1305    [0m DHE 4096 bits
-Accepted  TLSv1.2  [32m256[0m bits  DHE-RSA-AES256-CCM8           DHE 4096 bits
-Accepted  TLSv1.2  [32m256[0m bits  DHE-RSA-AES256-CCM            DHE 4096 bits
-Accepted  TLSv1.2  [32m256[0m bits  [32mECDHE-ARIA256-GCM-SHA384     [0m Curve [32m25519[0m DHE 253
-Accepted  TLSv1.2  [32m256[0m bits  [32mDHE-RSA-ARIA256-GCM-SHA384   [0m DHE 4096 bits
-Accepted  TLSv1.2  [32m128[0m bits  [32mECDHE-RSA-AES128-GCM-SHA256  [0m Curve [32m25519[0m DHE 253
-Accepted  TLSv1.2  [32m128[0m bits  [32mDHE-RSA-AES128-GCM-SHA256    [0m DHE 4096 bits
-Accepted  TLSv1.2  [32m128[0m bits  DHE-RSA-AES128-CCM8           DHE 4096 bits
-Accepted  TLSv1.2  [32m128[0m bits  DHE-RSA-AES128-CCM            DHE 4096 bits
-Accepted  TLSv1.2  [32m128[0m bits  [32mECDHE-ARIA128-GCM-SHA256     [0m Curve [32m25519[0m DHE 253
-Accepted  TLSv1.2  [32m128[0m bits  [32mDHE-RSA-ARIA128-GCM-SHA256   [0m DHE 4096 bits
 Accepted  TLSv1.2  [32m256[0m bits  ECDHE-RSA-AES256-SHA384       Curve [32m25519[0m DHE 253
-Accepted  TLSv1.2  [32m256[0m bits  DHE-RSA-AES256-SHA256         DHE 4096 bits
-Accepted  TLSv1.2  [32m256[0m bits  ECDHE-RSA-CAMELLIA256-SHA384  Curve [32m25519[0m DHE 253
-Accepted  TLSv1.2  [32m256[0m bits  DHE-RSA-CAMELLIA256-SHA256    DHE 4096 bits
+Accepted  TLSv1.2  [32m128[0m bits  [32mECDHE-RSA-AES128-GCM-SHA256  [0m Curve [32m25519[0m DHE 253
 Accepted  TLSv1.2  [32m128[0m bits  ECDHE-RSA-AES128-SHA256       Curve [32m25519[0m DHE 253
-Accepted  TLSv1.2  [32m128[0m bits  DHE-RSA-AES128-SHA256         DHE 4096 bits
-Accepted  TLSv1.2  [32m128[0m bits  ECDHE-RSA-CAMELLIA128-SHA256  Curve [32m25519[0m DHE 253
-Accepted  TLSv1.2  [32m128[0m bits  DHE-RSA-CAMELLIA128-SHA256    DHE 4096 bits
 Accepted  TLSv1.2  [32m256[0m bits  ECDHE-RSA-AES256-SHA          Curve [32m25519[0m DHE 253
-Accepted  TLSv1.2  [32m256[0m bits  DHE-RSA-AES256-SHA            DHE 4096 bits
-Accepted  TLSv1.2  [32m256[0m bits  DHE-RSA-CAMELLIA256-SHA       DHE 4096 bits
+Accepted  TLSv1.2  [32m256[0m bits  [32mECDHE-RSA-CHACHA20-POLY1305  [0m Curve [32m25519[0m DHE 253
+Accepted  TLSv1.2  [32m256[0m bits  [32mECDHE-ARIA256-GCM-SHA384     [0m Curve [32m25519[0m DHE 253
+Accepted  TLSv1.2  [32m128[0m bits  [32mECDHE-ARIA128-GCM-SHA256     [0m Curve [32m25519[0m DHE 253
+Accepted  TLSv1.2  [32m256[0m bits  ECDHE-RSA-CAMELLIA256-SHA384  Curve [32m25519[0m DHE 253
+Accepted  TLSv1.2  [32m128[0m bits  ECDHE-RSA-CAMELLIA128-SHA256  Curve [32m25519[0m DHE 253
 Accepted  TLSv1.2  [32m128[0m bits  ECDHE-RSA-AES128-SHA          Curve [32m25519[0m DHE 253
-Accepted  TLSv1.2  [32m128[0m bits  DHE-RSA-AES128-SHA            DHE 4096 bits
-Accepted  TLSv1.2  [32m128[0m bits  DHE-RSA-CAMELLIA128-SHA       DHE 4096 bits
 Accepted  TLSv1.2  [32m256[0m bits  AES256-GCM-SHA384            
 Accepted  TLSv1.2  [32m256[0m bits  AES256-CCM8                  
 Accepted  TLSv1.2  [32m256[0m bits  AES256-CCM                   

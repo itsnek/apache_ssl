@@ -33,11 +33,16 @@ the end of the container if you need to specify which you want to rebuild).
 - `openssl x509 -req -in client.req -CA ../cacerts/CA.crt -CAkey ../cacerts/CA.key -CAcreateserial -out client.cer -days 365 -sha256 -extfile client.v3.ext`  
 - `openssl pkcs12 -export -inkey client.key -in client.cer -out client.p12`  
 
-
-#### SSLyze && SSLScan
-- `docker run -it --rm --network host nablac0d3/sslyze:latest localhost:443 > ./results/sslyze.log`
-- `docker run --rm -ti --network host sslscan:sslscan /sslscan localhost:443 > ./results/sslscan.log`
+#### SSLyze && SSLScan  
+- `docker run -it --rm -v "./certs/client:/certs" --network host nablac0d3/sslyze:latest localhost:443 --cert /certs/client.cer --key /certs/client.key > ./results/sslyze.log`  
+- `docker run -it --rm -v "./certs/client:/certs" --network host sslscan:sslscan /sslscan --pk=/certs/client.p12 --pkpass=myCert localhost:443 > ./results/sslscan.log`  
+- `docker run -it --rm -v "./certs/client:/certs" --network host sslscan:sslscan /sslscan --certs=/certs/client.cer --pk=/certs/client.key --pkpass=myCert localhost:443 > ./results/sslscan.log` 
+- To check security measures: `wget -S --spider https://localhost:443 --certificate=certs/client/client.cer --private-key=certs/client/client.key --no-check-certificate`
 
 ### Sources  
-
 - https://arminreiter.com/2022/01/create-your-own-certificate-authority-ca-using-openssl/  
+- https://linuxconfig.org/apache-web-server-ssl-authentication   
+- https://linuxhint.com/enable-https-apache-web-server/  
+- https://community.apachefriends.org/f/viewtopic.php?t=75613&p=256430#  
+- https://docs.miarec.com/admin-guide/security/security-hardening-for-apache-web-server/   
+- https://webhostinggeeks.com/blog/8-easy-steps-to-safeguard-an-apache-web-server-and-prevent-ddos/  
